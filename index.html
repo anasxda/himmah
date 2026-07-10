@@ -1,5 +1,13 @@
 <meta charset="UTF-8">
 <title>همّة — متابعة تمارينك</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#146b6e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="همّة">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAACdUlEQVR4nO3bwW0bMRBAUdlICd4qHTi1BEiX20QKyH5FF2k56/eO8oUcfBACKb99fH7d4Mj74acgDu4RB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQftzWs//5ffj59vPX7RL2IRt8nzK4+38aZJ+zwbXi+O90VhvftTe4UBwPzmWp8V17gwvFwWrEQRIHSRwkcZDEQRIHSRyc+rby763Oao8II+wvH+PTT47D+751LgGn2M8Y43PjGPTItLL9pDH6zkESB0kcJHGQxEESB0kcJHGQxEESB0kcJHEw6t8hHzTo6W6b+ROFqSfHoDJu01Y7O46Js94HrnlkHLyGOEjiIImDJA6SOLhWHBPvlLaBax4Zx7hZb6NWe4Xr86ETH2TqycELiIMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4OCmOO29jns3WH+PTT47D1StjxBhf8WQvhaFj9J2DJA6SOEjiIImDJA6SOEjiYEIcD17yzL1SG7fBheJ4ZC7rDO47bHCtOL7DW902Z4NvH59fZ6+BRS13crAOcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHt/IXRV1dGyFua9AAAAAASUVORK5CYII=">
+<link rel="icon" type="image/png" sizes="192x192" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAACsklEQVR4nO3cUWrqUBRA0Vg6BB1lix1LobPMJN4AnhTpBr0nrvVZLOSe7ETJFU/nj+sGf/X25/8EAVEJiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCTv28L2n++bf798fm1HtA9c7+n8cd1GTXPEWF9nvW9Dp3nna6bYx653xYDun9SaM32p9a4YEIMIiERAJAIiERCJgEgERCIgEgGRCIghu/H/P4Zfc3dwov15s33QHejmJs7+873g5s44+1Nn+4iAfl+JhkbP1mcgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAuK4v85xv6Fb+pf534g6wh1oaD3b5CM/TkDTz8E+/PjHB8RzCYhEQCQCIhEQiYB47YCmP4u7DD/+8QGNPgeXsUd+tK2MA5yJoY5wB+KJBEQiIBIBkQiIREAkAiIREImASAREIiASAbF8QL/vdNoHHT1bdyAmBHTzUrh8frn9TJ/t474PpJVDztZbGImASAREIiASAZEIiERAJAIiERCHC+j+56rHeLp9mbzeFQNikEUDuudSW/ByfMH1ns4f123aL5iuOcrXXO/SAbG+Rd/CmEJAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCYiv+AdGQZQuknXKpAAAAAElFTkSuQmCC">
 <style>
   @font-face{
     font-family:'ThmanyahSans';
@@ -118,7 +126,7 @@
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:22px 20px 14px;
+    padding:calc(22px + env(safe-area-inset-top)) 20px 14px;
     border-bottom:1px solid var(--border);
     flex-shrink:0;
     gap:10px;
