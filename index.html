@@ -366,6 +366,11 @@
   .btn-add-exercise:hover{ background:var(--accent-soft); border-color:var(--accent); }
   .btn-add-exercise svg{ width:17px; height:17px; }
 
+  .app-footer{
+    text-align:center; font-size:0.72rem; color:var(--ink-faint);
+    margin:22px 0 6px;
+  }
+
   .bottom-bar{
     position:absolute; bottom:0; inset-inline-start:0; inset-inline-end:0;
     padding:14px 16px calc(16px + env(safe-area-inset-bottom));
@@ -893,6 +898,8 @@
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>' +
       escapeHtml(s.addExercise) +
     '</button>';
+
+    html += '<p class="app-footer">© ' + new Date().getFullYear() + ' Anas Althubyani. All rights reserved.</p>';
 
     html += '<div style="height:76px"></div>';
 
